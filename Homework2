@@ -1,0 +1,17 @@
+my_shopping_list="""""My shopping list contains: \n\t Trainers \n \t Vegetables \n \t Cream \n \t cake"""""
+
+print(my_shopping_list)
+
+amount_of_things_to_buy = 5
+amount = f"{amount_of_things_to_buy} things I have to buy."
+
+print(amount)
+print("How much vegetables cost?")
+
+vegetables=input()
+
+print("And it will be "+ str(int(vegetables) * 2) +" if it is two kilos")
+print("How much one piece of cake cost?")
+
+piece_of_cake=input()
+print("It will be "+str(int(piece_of_cake)* 3)+ " If I buy three pieces of cake")
